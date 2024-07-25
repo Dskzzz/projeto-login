@@ -154,22 +154,20 @@ p{
 /* Media query para COmputador */
 
 
-@media screen and (min-width: 1024px) and (max-width: 1440px) {
+@media screen and (min-width: 1080px) and (max-width: 1440px) {
 
     body{
         background-image: linear-gradient(to top, #3c5677, #8fb3bf, #a087ae, #56557a);
     }
 
-    
     #login{
-        width: 80vw;
+        width: 70vw;
         float: left;
     }
 
     #img{
         float: right;
-        width: 30%;
+        width: 40%;
         height: 100%;
     }
-
 }
